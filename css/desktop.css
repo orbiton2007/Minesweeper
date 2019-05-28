@@ -1,0 +1,15 @@
+body{
+    margin-left: 35%;
+}
+
+
+h3 .restart, h3 .lives{
+    margin-left: 68px;
+}
+
+
+td{
+    width: 30px;
+    height: 30px;
+    border: 3px solid darkgray;
+}

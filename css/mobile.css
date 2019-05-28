@@ -1,0 +1,118 @@
+body{
+    background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+    margin-left: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkgray;
+}
+
+.heading{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 1rem;
+}
+.beginner{
+    border: 3px solid rgb(1, 88, 1);
+    border-radius: 6px;
+    background-color: green;
+    font-weight: bold;
+    transition: 1s;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.beginner:hover{
+    opacity: 1;;
+}
+
+
+.medium{
+    border: 3px solid rgb(100, 94, 2);
+    border-radius: 6px;
+    background-color: yellow;
+    font-weight: bold;
+    transition: 1s;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.medium:hover{
+    opacity: 1;;
+}
+
+
+.expert{
+    border: 3px solid rgb(97, 2, 2);
+    border-radius: 6px;
+    background-color: red;
+    font-weight: bold;
+    transition: 1s;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.expert:hover{
+    opacity: 1;;
+}
+
+.restart{
+    cursor: pointer;
+}
+
+h3 .restart, h3 .lives{
+    margin-left: 10px;
+}
+
+.tbody{
+    border-radius: 5px;
+
+}
+
+td{
+    width: 18px;
+    height: 18px;
+    margin: 1px;
+    background-color: rgb(6, 6, 7);
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    opacity: 0.8;
+    color: black;
+}
+td:hover{
+    opacity: 1;
+}
+
+.open{
+    background-color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.buttons-hints{
+    float: left;
+    height: 100px;
+    width: 40px;
+    margin-left: 20px;
+}
+
+.hint1, .hint3{
+    clear: left;
+}
+
+.hint2{
+    float: left;
+}
+
+.hints1, .hints2, .hints3{
+    cursor: pointer;
+}

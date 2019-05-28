@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="initGame()">
+    <header>
+        <h1 class="heading">Minesweeper</h1>
+        <h2 class="choose-level">Choose level:<span><button class="beginner" onclick="levelChoice(this)" >Beginner</button></span> 
+            <span><button class="medium" onclick="levelChoice(this)">Medium</button></span> 
+            <span><button class="expert" onclick="levelChoice(this)">Expert</button></span>
+        </h2>
+        <h3><span class="time">Time: </span> <span class="restart" onclick="restart(this)"> </span> <span class="msg"> </span>
+            <span class="lives">3 Lives left</span>
+        </h3>
+        <!-- <h3><span class="hints" onclick="setHint(this)"></span></h3> -->
+        <div class="buttons-hints">
+            <div class="hint1"><span class="hints1" onclick="setHint(this)"></span></div>
+            <div class="hint2"><span class="hints2" onclick="setHint(this)"></span></div>
+            <div class="hint3"><span class="hints3" onclick="setHint(this)"></span></div>
+        </div>
+    </header>
+    <div class="board"></div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
